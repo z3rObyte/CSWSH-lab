@@ -25,9 +25,9 @@ sudo apt install mkcert
 npm install --global http-server
 ```
 * Windows
-Descarga [NodeJS](https://nodejs.org/en)
-Descarga [mkcert](https://github.com/FiloSottile/mkcert?tab=readme-ov-file)
-Descarga [http-server](https://www.npmjs.com/package/http-server)
+ - Descarga [NodeJS](https://nodejs.org/en)
+ - Descarga [mkcert](https://github.com/FiloSottile/mkcert?tab=readme-ov-file)
+ - Descarga [http-server](https://www.npmjs.com/package/http-server)
 
 #### Instalación
 ```bash
