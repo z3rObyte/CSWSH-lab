@@ -65,9 +65,9 @@ La aplicación web usa [websockets](https://developer.mozilla.org/en-US/docs/Web
 
 Este ataque es parecido a un [CSRF](https://es.wikipedia.org/wiki/Cross-site_request_forgery) pero aplicado a los _websockets_.
 
-Aquí tienes un video mostrando la explotación de la vulnerabilidad:
+Aquí tienes un video mostrando la explotación de la vulnerabilidad (haz click en la imagen):
 
-![video]
+[![Video](https://img.youtube.com/vi/Ifmx0qfPqdw/0.jpg)](https://www.youtube.com/watch?v=Ifmx0qfPqdw)
 
 
 ## Donaciones
