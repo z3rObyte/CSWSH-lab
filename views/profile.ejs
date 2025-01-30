@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>z3r0bank - Perfil</title>
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <img src="/images/Z3R0BANK.png" alt="Logo del Banco" class="logo">
+      <h1>Hola, <%= user.username %></h1>
+    </header>
+    <section class="profile">
+      <p><strong>Saldo disponible:</strong> <%= user.balance %> €</p>
+      <p><strong>IBAN:</strong> <%= user.iban %></p>
+    </section>
+    <section class="transfer">
+      <h2>Transferir dinero</h2>
+      <form id="transferForm">
+        <input type="text" id="receiver" placeholder="IBAN destinatario" required>
+        <input type="number" id="amount" placeholder="Monto" required>
+        <button type="submit">Enviar dinero</button>
+      </form>
+    </section>
+  </div>
+  <script src="/js/websocket.js"></script>
+</body>
+</html>
