@@ -39,6 +39,7 @@ Para que sea posible la vulnerabilidad en este lab, el servidor local debe usar 
 
 A continuación veremos como generar e instalar los certificados necesarios ello:
 ```bash
+mkdir certificates
 cd certificates
 mkcert install # si da problemas, ejecutar como admin o root
 mkcert localhost
